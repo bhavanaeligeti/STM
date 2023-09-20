@@ -48,6 +48,4 @@ $status = $kernel->handle(
 |
 */
 
-$kernel->terminate($input, $status);
-
-exit($status);
+$kernel->terminal->new();
